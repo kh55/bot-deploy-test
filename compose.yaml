@@ -1,0 +1,6 @@
+services:
+  bot-demo:
+    build:
+      context: .
+    restart: unless-stopped
+    
